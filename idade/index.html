@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>verificador de idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="mudar()">
+    <header>
+        <P>Verificador de idade</P>
+    </header>
+        
+    <section>
+        <form id="formulario">
+           
+            <input type="number" id="nascimento" placeholder="Ano de nascimento" maxlength="4"><br>
+
+            <label>Sexo:</label>
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="masculino" name="sexo" value="masculino">
+
+            <label for="feminino">Feminino</label>
+            <input type="radio" id="feminino" name="sexo" value="feminino">
+            <br>
+            <button id="verificador" type="button" onclick="verificar()">Verificar</button>
+        </form>
+        <div id="resposta">Responda o questionario</div>
+    </section>
+
+
+    <footer>
+        <a href="https://github.com/MrRigatti" target="_blank">MrRigatti</a>
+    </footer>
+
+    <script src="script.js"></script></footer>
+</body>
+</html>
