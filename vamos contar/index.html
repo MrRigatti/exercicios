@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="mudar()">
+    <header>
+        Vamos contar
+    </header>
+    <section>
+        <form id="contagem">
+            <label for="inicio">Inicio</label><br>
+            <input type="number" id="inicio" name="inicio"><br>
+
+            <label for="fim">Fim</label><br>
+            <input type="number" id="fim" name="fim"><br>
+
+            <label for="passo">Passo</label><br>
+            <input type="number" id="passo" name="passo"><br>
+            
+            <button id="verificador" type="button" onclick="verificar()">Verificar</button>
+
+        </form>
+        <div id="resposta">Responda o questionario</div>
+    </section>
+    <footer>
+        <a href="https://github.com/MrRigatti" target="_blank">MrRigatti</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
