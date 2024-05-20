@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+
+
+}
+
+
+header{
+    display: flex;
+    background-color: rgb(230, 227, 227);
+    margin: 0px;
+    height: 6vh;
+    align-items: center;
+    
+}
+
+
+#browse{
+   padding-left: 10px; 
+   width: 130px;
+   border-right:1px  rgba(41, 40, 40, 0.151) solid;
+}
+
+
+#search{
+    padding-left: 5px;
+}
+
+
+#menu{
+    position: absolute;
+    right: 0px;
+    width: 90px;
+}
+
+header h1{    
+    position: absolute;
+    left: 50%;
+    top: 1%;  
+}
+
+
+#browse-icon,
+#search-icon{
+    width: 6%;
+    opacity: 35%;
+
+}
+
+#menu-icon{
+    width: 20%;
+    opacity: 35%;
+}
